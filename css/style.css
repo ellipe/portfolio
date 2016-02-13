@@ -31,6 +31,22 @@ body {
 	vertical-align: top;
 }
 
+.vcard-portrait{
+	border-radius: 8px;
+}
+
+.vcard-name{
+	padding-top: 10px;
+	line-height: 30px;
+	font-size: 26px;
+	color: #252D62;
+	font-weight: bold;
+}
+
+.vcard-role {
+	color: #666;
+}
+
 .social	{
 	margin-top: 20px;
 }
@@ -57,8 +73,9 @@ body {
 
 }
 
-.vcard-portrait{
-	border-radius: 8px;
+.vcard-detail {
+	width: 69%;
+	display: inline-block;
 }
 
 .vcard-title{
@@ -69,18 +86,30 @@ body {
 	font-weight: bold;
 }
 
-.vcard-role {
-	color: #666;
+.vcard-projects {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
-.vcard-detail {
-	width: 69%;
-	display: inline-block;
+
+.vcard-projects img {
+	padding: 5px 5px;
 }
 
 .vcard img {
 	padding-top: 10px;
 	width: 230px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 
+}
+
+.vcard img:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);	
+	-webkit-transition: all 1.2s;
+	-moz-transition: all 1.2s;
+	-transition: all 1.2s;
 }
 
 footer	{
@@ -91,4 +120,5 @@ footer	{
    	width:100%;
    	background:#999;
    	text-align: center;
+
 }
