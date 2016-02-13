@@ -47,6 +47,11 @@ body {
 	color: #666;
 }
 
+.horizontal-line {
+	width: 230px;
+	border: 1px solid black;
+}
+
 .social	{
 	margin-top: 20px;
 }
