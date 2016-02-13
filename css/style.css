@@ -53,7 +53,7 @@ body {
 }
 
 .social a:hover {
-	background-color: #fed136;
+	background-color: #DD4F4F;
 
 }
 
@@ -61,7 +61,7 @@ body {
 	border-radius: 8px;
 }
 
-.vcard-fullname{
+.vcard-title{
 	padding-top: 10px;
 	line-height: 30px;
 	font-size: 26px;
@@ -89,11 +89,4 @@ footer	{
    	width:100%;
    	background:#999;
    	text-align: center;
-
-	/*bottom: 0;
-	height: 50px;
-	width: 100%;
-	padding: 90px 0;
-	text-align: center;
-	font-size: 18px;*/
 }
