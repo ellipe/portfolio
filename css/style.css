@@ -98,7 +98,17 @@ body {
 }
 
 .vcard-projects img {
+ 	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;	
 	padding: 5px 5px;
+}
+
+.vcard-projects img:hover {
+	/*Zoom must be done*/
+	  border-radius: 50%;
 }
 
 .vcard img {
